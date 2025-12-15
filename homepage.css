@@ -1,0 +1,91 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f7a3a;
+}
+
+.top-header {
+    background-color: #1f7a3a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.logo-container img {
+    width: 60px;
+}
+
+.top-header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2)
+}
+
+
+.hero {
+    background-image: url('bckgrnd.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 75vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px 30px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.hero-overlay h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.hero-overlay p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #1f7a3a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
